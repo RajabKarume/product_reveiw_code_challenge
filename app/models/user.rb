@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
-    has_many :reveiws
-    has_many :products, through: :reveiws
+    has_many :reviews
+    has_many :products, through: :reviews
 end
